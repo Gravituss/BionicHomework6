@@ -260,7 +260,105 @@ body{
 	margin-bottom: 30px;
 }
 
+.sub-menu:first-child {
+	margin-right: 70px;
+}
+
 .sub-menu a {
 	text-decoration: none;
+}
+
+.footer-miniheader {
+	padding-bottom: 20px;
+	color: #aeaeae;
+	font-size: 21.5px;
+}
+
+.footer-links li {
+	margin-bottom: 7px;
+}
+
+.footer-links a {
 	color: #8b8b8b;
+	font-size: 15px;
+}
+
+.footer-links a:hover {
+	color: #aeaeae;
+}
+
+
+
+.icons-and-copyright {
+	float: right;
+	color: #8b8b8b;
+	margin-top: 30px;
+}
+
+#icons1 {
+	width: 52px;
+	height: 52px;
+	background: url('../img/footer-icons.png') 0 0;
+	margin-right: 10px;
+}
+
+#icons1:hover {
+	width: 52px;
+	height: 52px;
+	background: url('../img/footer-icons.png') 0 0;
+}
+
+#icons2 {
+	width: 52px;
+	height: 52px;
+	background: url('../img/footer-icons.png') 0 0;
+	margin-right: 10px;
+}
+
+#icons2:hover {
+	width: 52px;
+	height: 52px;
+	background: url('../img/footer-icons.png') 0 0;
+}
+
+#icons3 {
+	width: 52px;
+	height: 52px;
+	background: url('../img/footer-icons.png') 0 0;
+	margin-right: 10px;
+}
+
+#icons3:hover {
+	width: 52px;
+	height: 52px;
+	background: url('../img/footer-icons.png') 0 0;
+}
+
+#icons4 {
+	width: 52px;
+	height: 52px;
+	background: url('../img/footer-icons.png') 0 0;
+	margin-right: 10px;
+}
+
+#icons4:hover {
+	width: 52px;
+	height: 52px;
+	background: url('../img/footer-icons.png') 0 0;
+}
+
+.icons-and-copyright a {
+	text-decoration: none;
+	color: #8b8b8b;
+}
+
+.icons-and-copyright a:hover {
+	text-decoration: underline;
+	color: #8b8b8b;
+}
+
+.copyright {
+	clear: both;
+	margin-top: 10px;
+
 }
