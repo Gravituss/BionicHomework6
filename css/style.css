@@ -213,4 +213,21 @@ body{
 
 .news{
 	padding: 45px 0;
+	width: 946px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.pic-block {
+	float: left;
+}
+
+.news-text .news-header {
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+
+.news-text {
+	float: right;
+	width: 720px;
 }
