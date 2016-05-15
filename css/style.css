@@ -220,7 +220,7 @@ body{
 
 .news-block {
 	overflow: hidden;
-	margin-bottom: 75px;
+	margin-bottom: 70px;
 }
 
 .pic-block {
@@ -255,13 +255,13 @@ body{
 
 .sub-menu {
 	float: left;
-	margin-right: 30px;
+	margin-right: 70px;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
 
 .sub-menu:first-child {
-	margin-right: 70px;
+	margin-right: 80px;
 }
 
 .sub-menu a {
@@ -271,7 +271,7 @@ body{
 .footer-miniheader {
 	padding-bottom: 20px;
 	color: #aeaeae;
-	font-size: 21.5px;
+	font-size: 22px;
 }
 
 .footer-links li {
@@ -292,7 +292,7 @@ body{
 .icons-and-copyright {
 	float: right;
 	color: #8b8b8b;
-	margin-top: 30px;
+	margin-top: 55px;
 	position: relative;
 	right: 5px;
 	
@@ -313,34 +313,42 @@ body{
 }
 
 #icons1 {
+	transition: all 0.5s ease;
 	background: url('../img/footer-icons.png') 0 0;
 }
 
 #icons1:hover {
+	transition: all 0.5s ease;
 	background: url('../img/footer-icons.png') 0 -56px;
 }
 
 #icons2 {
+	transition: all 0.5s ease;
 	background: url('../img/footer-icons.png') -77px 0;
 }
 
 #icons2:hover {
+	transition: all 0.5s ease;
 	background: url('../img/footer-icons.png') -77px -56px;
 }
 
 #icons3 {
+	transition: all 0.5s ease;
 	background: url('../img/footer-icons.png') -152px 0;
 }
 
 #icons3:hover {
+	transition: all 0.5s ease;
 	background: url('../img/footer-icons.png') -152px -56px;
 }
 
 #icons4 {
+	transition: all 0.5s ease;
 	background: url('../img/footer-icons.png') -225px 0;
 }
 
 #icons4:hover {
+	transition: all 0.5s ease;
 	background: url('../img/footer-icons.png') -225px -56px;
 }
 
