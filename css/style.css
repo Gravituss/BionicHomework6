@@ -215,7 +215,12 @@ body{
 	padding: 45px 0;
 	width: 946px;
 	margin: 0 auto;
+	
+}
+
+.news-block {
 	overflow: hidden;
+	margin-bottom: 75px;
 }
 
 .pic-block {
@@ -225,6 +230,7 @@ body{
 .news-text .news-header {
 	font-size: 30px;
 	margin-bottom: 15px;
+	color: #404040;
 }
 
 .news-text {
@@ -232,4 +238,5 @@ body{
 	width: 720px;
 	line-height: 22px;
 	text-align: justify;
+	color: #8b8b8b;
 }
