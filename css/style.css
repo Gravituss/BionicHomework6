@@ -279,11 +279,13 @@ body{
 }
 
 .footer-links a {
+	transition: all 0.3s ease;
 	color: #8b8b8b;
 	font-size: 15px;
 }
 
 .footer-links a:hover {
+	transition: all 0.3s ease;
 	color: #9a6363;
 }
 
