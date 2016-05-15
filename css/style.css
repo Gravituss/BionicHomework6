@@ -230,4 +230,6 @@ body{
 .news-text {
 	float: right;
 	width: 720px;
+	line-height: 22px;
+	text-align: justify;
 }
