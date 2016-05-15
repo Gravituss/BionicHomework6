@@ -240,3 +240,27 @@ body{
 	text-align: justify;
 	color: #8b8b8b;
 }
+
+.footer {
+	background-image: url('../img/footer-bg.jpg');
+	width: auto;
+
+}
+
+.footer-container {
+	width: 962px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.sub-menu {
+	float: left;
+	margin-right: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.sub-menu a {
+	text-decoration: none;
+	color: #8b8b8b;
+}
