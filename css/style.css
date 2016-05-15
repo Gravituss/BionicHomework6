@@ -284,7 +284,7 @@ body{
 }
 
 .footer-links a:hover {
-	color: #aeaeae;
+	color: #9a6363;
 }
 
 
@@ -293,58 +293,55 @@ body{
 	float: right;
 	color: #8b8b8b;
 	margin-top: 30px;
+	position: relative;
+	right: 5px;
+	
+}
+
+.icons {
+	position: absolute;
+	top: 0;
+}
+
+.icons-bg {
+	width: 52px;
+	height: 52px;
+}
+
+.icons img {
+	margin-right: 10px;
 }
 
 #icons1 {
-	width: 52px;
-	height: 52px;
 	background: url('../img/footer-icons.png') 0 0;
-	margin-right: 10px;
 }
 
 #icons1:hover {
-	width: 52px;
-	height: 52px;
-	background: url('../img/footer-icons.png') 0 0;
+	background: url('../img/footer-icons.png') 0 -56px;
 }
 
 #icons2 {
-	width: 52px;
-	height: 52px;
-	background: url('../img/footer-icons.png') 0 0;
-	margin-right: 10px;
+	background: url('../img/footer-icons.png') -77px 0;
 }
 
 #icons2:hover {
-	width: 52px;
-	height: 52px;
-	background: url('../img/footer-icons.png') 0 0;
+	background: url('../img/footer-icons.png') -77px -56px;
 }
 
 #icons3 {
-	width: 52px;
-	height: 52px;
-	background: url('../img/footer-icons.png') 0 0;
-	margin-right: 10px;
+	background: url('../img/footer-icons.png') -152px 0;
 }
 
 #icons3:hover {
-	width: 52px;
-	height: 52px;
-	background: url('../img/footer-icons.png') 0 0;
+	background: url('../img/footer-icons.png') -152px -56px;
 }
 
 #icons4 {
-	width: 52px;
-	height: 52px;
-	background: url('../img/footer-icons.png') 0 0;
-	margin-right: 10px;
+	background: url('../img/footer-icons.png') -225px 0;
 }
 
 #icons4:hover {
-	width: 52px;
-	height: 52px;
-	background: url('../img/footer-icons.png') 0 0;
+	background: url('../img/footer-icons.png') -225px -56px;
 }
 
 .icons-and-copyright a {
@@ -359,6 +356,7 @@ body{
 
 .copyright {
 	clear: both;
-	margin-top: 10px;
+	margin-top: 80px;
+	font-size: 15.5px;
 
 }
